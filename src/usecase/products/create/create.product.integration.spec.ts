@@ -4,10 +4,7 @@ import { InputCreateProductDto } from "./create.product.dto";
 import CreateProductUseCase from "./create.product.usecase";
 import ProductModel from "../../../infrastructure/product/repository/sequelize/product.model";
 
-
-
-
-describe('Unit tests for product use case', () => {
+describe('Integration tests for product use case', () => {
     let input: InputCreateProductDto;
     let sequelize: Sequelize;
 
